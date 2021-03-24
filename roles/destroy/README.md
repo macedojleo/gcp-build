@@ -26,7 +26,8 @@ Role Variables
 * zone: "zone"
 
 * resource:
-       * name: "VM name"
+      
+      name: "VM name"
 
 Example Playbook
 ----------------
