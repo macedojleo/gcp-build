@@ -6,15 +6,11 @@ Destroy an Virtual Machine instance on GCP (Google Cloud Platform)
 Requirements
 ------------
 
-ansible >= 2.9
-
-python >= 2.6
-
-requests >= 2.18.4
-
-google-auth >= 1.3.0
-
-service account and gcp account
+* ansible >= 2.9
+* python >= 2.6
+* requests >= 2.18.4
+* google-auth >= 1.3.0
+* service account and gcp account
 
 Role Variables
 --------------
