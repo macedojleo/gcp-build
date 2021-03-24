@@ -17,17 +17,17 @@ Role Variables
 
 ### Put here informations regarding the VM will be destroyed
 
-gcp_project: "Project name"
+* gcp_project: "Project name"
 
-gcp_cred_kind: serviceaccount
+* gcp_cred_kind: serviceaccount
 
-gcp_cred_file: "Credentials file"
+* gcp_cred_file: "Credentials file"
 
-zone: "zone"
+* zone: "zone"
 
-resource:
+* resource:
        
-       name: "VM name"
+       * name: "VM name"
 
 Example Playbook
 ----------------
