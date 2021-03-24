@@ -1,0 +1,9 @@
+---
+# vars file for roles/build
+
+gcp_project: project
+gcp_cred_kind: serviceaccount
+gcp_cred_file: credentials_file
+zone: "zone"
+resource:
+       name: VM_name
