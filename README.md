@@ -38,7 +38,7 @@ Role Variables
 
 * region: "GCP Region" -- List all regions in a project in table form by running ``` $ gcloud compute zones list ```
 
-* image: 'Compute engine' -- Lst all Google Compute Engine by running ``` $ gcloud compute images list ```
+* image: 'Compute engine' -- List all Google Compute Engine by running ``` $ gcloud compute images list ```
 
 * resource:
        
@@ -48,7 +48,7 @@ Role Variables
        
        size: -- "Disk size, e.g 10 means 10Gb"
        
-       address: -- " Resource address name"
+       address: -- "Resource address name"
 
 Dependencies
 ------------
