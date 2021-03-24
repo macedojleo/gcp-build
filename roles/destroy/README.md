@@ -1,4 +1,4 @@
-Role Name
+Destroy
 =========
 
 Destroy an Virtual Machine instance on GCP (Google Cloud Platform)
