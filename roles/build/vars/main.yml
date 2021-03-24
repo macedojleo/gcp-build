@@ -1,0 +1,15 @@
+---
+# vars file for roles/build
+
+gcp_project: project
+gcp_cred_kind: serviceaccount
+gcp_cred_file: credentials_file
+gcp_mach_type: machine_type
+zone: "zone"
+region: "region"
+image: 'image'
+resource:
+       name: VM_name
+       disk: disk_name
+       size: disk_size
+       address: resource_address_name

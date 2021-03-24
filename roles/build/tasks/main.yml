@@ -1,0 +1,6 @@
+---
+# tasks file for roles/build
+
+- import_tasks: disks.yml
+- import_tasks: address.yml
+- import_tasks: instance.yml

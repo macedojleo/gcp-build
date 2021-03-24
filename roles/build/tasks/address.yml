@@ -1,0 +1,13 @@
+---
+# address roles/build
+- name: create addresses
+  gcp_compute_address:
+    name: "{{ resource.address }}"
+    region: "{{ region }}"
+    project: "{{ gcp_project }}"
+    auth_kind: "{{ gcp_cred_kind }}"
+    service_account_file: "{{ gcp_cred_file }}"
+    scopes:
+      - https://www.googleapis.com/auth/compute
+    state: present
+  register: address
