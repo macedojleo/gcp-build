@@ -15,7 +15,7 @@ Requirements
 Role Variables
 --------------
 
-## Put here details regarding your GCP project info and credentials.    
+### Put here details regarding your GCP project info and credentials.    
 
 * gcp_project: -- Your project name
 
@@ -30,7 +30,7 @@ Role Variables
 		project-id: Your Google Cloud project ID.  
 
 
-## Put here details regarding your new instance.
+### Put here details regarding your new instance.
 
 * gcp_mach_type: "machine type" -- ``` $ gcloud compute machine-types list --filter="zone: your_zone" ```
 
