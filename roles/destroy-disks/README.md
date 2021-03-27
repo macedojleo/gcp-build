@@ -1,4 +1,4 @@
-Destroy
+Destroy-disks
 =========
 
 Detach and destroy non boot disk from GCP instance.
