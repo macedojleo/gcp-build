@@ -33,7 +33,7 @@ Build GCP instance
 1. Put all required information into the variable role/build/vars/mail.yml file.
 2. Run build playbook
 
-```$ ansible-playbook run_build.yml```
+```$ ansible-playbook build-instance.yml```
 
 
 Destroy GCP instance 
@@ -41,4 +41,4 @@ Destroy GCP instance
 1. Put all required information into the variable role/destroy/vars/mail.yml file. 
 2. Run destroy playbook
 
-```$ ansible-playbook run_destroy.yml```
+```$ ansible-playbook destroy-instance.yml```

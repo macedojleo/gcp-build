@@ -1,7 +1,7 @@
 Destroy
 =========
 
-Destroy an Virtual Machine instance on GCP (Google Cloud Platform)
+Detach and destroy non boot disk from GCP instance.
 
 Requirements
 ------------
@@ -17,17 +17,16 @@ Role Variables
 
 ### Put here informations regarding the VM will be destroyed
 
-* gcp_project: "Project name"
+
+* name: "disk name"
+
+* instance_attached: "GCP instance name where disk is attached"
+
+* zone: "zone"
 
 * gcp_cred_kind: serviceaccount
 
 * gcp_cred_file: "Credentials file"
-
-* zone: "zone"
-
-* resource:
-      
-     * name: "VM name"
 
 Example Playbook
 ----------------
@@ -35,7 +34,7 @@ Example Playbook
 ---
 - hosts: localhost
   roles:
-  - destroy
+  - destroy-disks
 ```
 License
 -------

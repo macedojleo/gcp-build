@@ -1,4 +1,4 @@
-Build
+Build-Instance
 =========
 
 Create an Virtual Machine instance on GCP (Google Cloud Platform)
@@ -56,7 +56,7 @@ Example Playbook
 ---
 - hosts: localhost
   roles:
-  - build
+  - build-instance
 ```
 
 License
