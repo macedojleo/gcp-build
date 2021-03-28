@@ -1,0 +1,11 @@
+---
+# vars file for create-disks
+
+gcp_project: project
+gcp_cred_kind: serviceaccount
+gcp_cred_file: credentials_file
+zone: zone
+name: disk_name
+disk_size: size
+disk_type: type
+instance_to_attach: instance_name

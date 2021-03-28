@@ -42,18 +42,3 @@ Destroy GCP instance
 2. Run destroy playbook
 
 ```$ ansible-playbook destroy-instance.yml```
-
-Create and attach new disk on GCP instance 
-----------------
-1. Put all required information into the variable role/create-disks/vars/mail.yml file.
-2. Run create-disk playbook
-
-```$ ansible-playbook create-disk.yml```
-
-
-Detach and destroy disk from GCP instance
-----------------
-1. Put all required information into the variable role/destroy-disks/vars/mail.yml file. 
-2. Run destroy-disk playbook
-
-```$ ansible-playbook destroy-disk.yml```

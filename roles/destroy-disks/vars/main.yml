@@ -1,0 +1,8 @@
+---
+# vars file for roles/build
+
+name: disk-test
+instance_attached: opo-01
+zone: "us-central1-a"
+gcp_cred_kind: serviceaccount
+gcp_cred_file: service-account.json
