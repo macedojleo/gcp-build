@@ -57,3 +57,28 @@ Detach and destroy disk from GCP instance
 2. Run destroy-disk playbook
 
 ```$ ansible-playbook destroy-disk.yml```
+
+Dynamic Inventory
+----------------
+Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
+
+The command below lists all your inventory:
+
+```$ ansible-inventory -i inventory.yml --list```
+
+You can view the populated inventory with:
+
+```$ ansible-inventory -i inventory.yml --graph
+@all:
+  |--@Porto:
+  |  |--34.0.0.1
+  |  |--34.0.0.2
+  |--@Lisbon:
+  |  |--35.0.0.1
+  |--@ungrouped:
+  |--@zone_us_central1_a:
+  |  |--34.0.0.1
+  |  |--34.0.0.2
+  |  |--35.0.0.1
+  
+  ```
