@@ -7,7 +7,7 @@ service_account_file: credentials_file
 keyed_groups:
   - key: zone
     prefix: zone
-# Groups example:
+# Groups examples:
 groups:
   Lisbon: "'lis' in name"
   Porto: "'opo' in name"
