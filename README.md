@@ -60,7 +60,7 @@ Detach and destroy disk from GCP instance
 
 Dynamic Inventory
 ----------------
-Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
+Use **inventory.yml** file as dynamic inventory in order to list all hosts and groups.
 
 The command below lists all your inventory:
 
@@ -68,7 +68,9 @@ The command below lists all your inventory:
 
 You can view the populated inventory with:
 
-```$ ansible-inventory -i inventory.yml --graph
+```
+$ ansible-inventory -i inventory.yml --graph
+
 @all:
   |--@Porto:
   |  |--34.0.0.1
