@@ -1,0 +1,13 @@
+---
+plugin: gcp_compute
+projects:
+          - project_name
+auth_kind: serviceaccount
+service_account_file: credentials_file
+keyed_groups:
+  - key: zone
+    prefix: zone
+# Groups example:
+groups:
+  Lisbon: "'lis' in name"
+  Porto: "'opo' in name"
