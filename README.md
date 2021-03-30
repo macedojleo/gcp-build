@@ -60,7 +60,7 @@ Detach and destroy disk from GCP instance
 
 Dynamic Inventory
 ----------------
-### Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
+Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
 
 1. Change both values into inventory.yml file: **project_name** and **cresentials_file** 
 
