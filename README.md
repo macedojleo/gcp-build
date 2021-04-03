@@ -8,7 +8,7 @@
 * gcp and service account
 
 
-GCP Variables
+:pencil: GCP Variables
 --------------
 
 ### Run the following **gcloud** command in order to create GCP credentials:
@@ -28,7 +28,7 @@ GCP Variables
 | Region       | ``` $ gcloud compute zones list ```  | List all regions available |
 
 
-Build GCP instance 
+:rocket: Build GCP instance 
 ----------------
 1. Put all required information into the variable role/build-instance/vars/mail.yml file.
 2. Run build playbook
@@ -36,14 +36,14 @@ Build GCP instance
 ```$ ansible-playbook build-instance.yml```
 
 
-Destroy GCP instance 
+:warning: Destroy GCP instance 
 ----------------
 1. Put all required information into the variable role/destroy-instance/vars/mail.yml file. 
 2. Run destroy playbook
 
 ```$ ansible-playbook destroy-instance.yml```
 
-Create and attach new disk on GCP instance 
+:floppy_disk: Create and attach new disk on GCP instance 
 ----------------
 1. Put all required information into the variable role/create-disks/vars/mail.yml file.
 2. Run create-disk playbook
@@ -51,14 +51,14 @@ Create and attach new disk on GCP instance
 ```$ ansible-playbook create-disk.yml```
 
 
-Detach and destroy disk from GCP instance
+:warning: Detach and destroy disk from GCP instance
 ----------------
 1. Put all required information into the variable role/destroy-disks/vars/mail.yml file. 
 2. Run destroy-disk playbook
 
 ```$ ansible-playbook destroy-disk.yml```
 
-Dynamic Inventory
+:notebook: Dynamic Inventory
 ----------------
 Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
 
