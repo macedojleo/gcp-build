@@ -11,7 +11,7 @@
 :pencil: GCP Variables
 --------------
 
-### Run the following **gcloud** command in order to create GCP credentials:
+### :closed_lock_with_key: Generate GCP project key File
 
 ``` $ gcloud iam service-accounts keys create key-file --iam-account=sa-name@project-id.iam.gserviceaccount.com ```
 
@@ -19,7 +19,7 @@
 * sa-name: The name of the service account to create a key for.
 * project-id: Your Google Cloud project ID.
 
-### Another useful GCP commands 
+### :bulb: Another useful commands 
 
 |     Value    | GCP Command |   Comments   |
 |    :---:     |     :---:   |     :---:    |
