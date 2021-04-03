@@ -62,7 +62,7 @@
 ----------------
 Using inventory.yml file as dynamic inventory you can list all GCP instances and create groups based on its tags.
 
-1. Change both values into inventory.yml file: **project_name** and **cresentials_file** 
+1. Change both values into inventory.yml file: **project_name** and **credentials_file** 
 
 2. Run the command below lists to list all your inventory:
 
