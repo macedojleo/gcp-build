@@ -30,7 +30,7 @@
 
 :rocket: Build GCP instance 
 ----------------
-1. Put all required information into the variable role/build-instance/vars/mail.yml file.
+1. Fill out all required variables in the role/build-instance/vars/mail.yml file.
 2. Run build playbook
 
 ```$ ansible-playbook build-instance.yml```
@@ -38,14 +38,14 @@
 
 :warning: Destroy GCP instance 
 ----------------
-1. Put all required information into the variable role/destroy-instance/vars/mail.yml file. 
+1. Fill out all required variables in the role/destroy-instance/vars/mail.yml file. 
 2. Run destroy playbook
 
 ```$ ansible-playbook destroy-instance.yml```
 
 :floppy_disk: Create and attach new disk on GCP instance 
 ----------------
-1. Put all required information into the variable role/create-disks/vars/mail.yml file.
+1. Fill out all required variables in the role/create-disks/vars/mail.yml file.
 2. Run create-disk playbook
 
 ```$ ansible-playbook create-disk.yml```
@@ -53,14 +53,14 @@
 
 :warning: Detach and destroy disk from GCP instance
 ----------------
-1. Put all required information into the variable role/destroy-disks/vars/mail.yml file. 
+1. Fill out all required variables in the role/destroy-disks/vars/mail.yml file. 
 2. Run destroy-disk playbook
 
 ```$ ansible-playbook destroy-disk.yml```
 
 :notebook: Dynamic Inventory
 ----------------
-Use inventory.yml file as dynamic inventory in order to list all hosts and groups.
+Using inventory.yml file as dynamic inventory you can list all GCP instances and create groups based on its tags.
 
 1. Change both values into inventory.yml file: **project_name** and **cresentials_file** 
 
