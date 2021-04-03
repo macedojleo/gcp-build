@@ -1,4 +1,4 @@
-:memo: Requirements
+:heavy_check_mark: Requirements
 ------------
 
 * ansible >= 2.9
